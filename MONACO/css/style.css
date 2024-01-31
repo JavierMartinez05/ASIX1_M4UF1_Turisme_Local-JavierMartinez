@@ -6,20 +6,11 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .tituloimg {
     height: 400px;
     width: 400px;
 }
 
-ul {
-    list-style: none;
-}
 
 .imgengaleria {
     height: 150px;
@@ -64,15 +55,6 @@ header {
     padding-top: 5px;
 }
 
-.Card {
-    height: 390px;
-}
-
-
-
-.conjunto {
-    padding-left: 13px;
-}
 
 .column-2 {
     width: 50%;
@@ -84,18 +66,6 @@ header {
     margin-top: 50px;
 }
 
-.Card-1 {
-    height: 240px;
-}
-
-
-
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
 .imgeng {
     height: 100px;
     justify-content: center;
@@ -105,71 +75,8 @@ header {
     margin-bottom: 2px;
 }
 
-.Card-n {
-    height: 180px;
-}
-
-
-.Card-n1 {
-    height: 180px;
-}
-
-
-
-.conjunto-n {
-    padding-left: 13px;
-    padding-top: 40px;
-    margin-bottom: 80px;
-}
-
 .googlemaps{
     text-align: center;
 }
 
-.card-2 {
-    height: 380px;
-}
 
-.imgmap{
-    height: 300px;
-}
-
-a {
-    color: black;
-}
-
-@media screen and (max-width: 980px) {
-    .header {
-        height: 350px;
-        width: 100%;
-    }
-    .tituloimg {
-        height: 200px;
-        width: 200px;
-    }
-    .column-M {
-        width: 100%;
-        float: left;
-    }
-    .column-I {
-        width: 100%;
-        float: left;
-    }
-    .column-3 {
-        width: 100%;
-        float: left;
-    }
-    .column-2 {
-        width: 100%;
-        float: left;
-    }
-    .Card-n1 {
-        height: 240px;
-    }
-    .Card-n {
-        height: 240px;
-    }
-    .Card-1 {
-        height: 340px;
-    }
-}
